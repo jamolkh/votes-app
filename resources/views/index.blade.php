@@ -25,26 +25,29 @@
             </div>
         </div>
     </div>
-        <div class="ideas-container hover:shadow-md transition duration-150 ease-in space-y-6 my-6 cursor-pointer">
-            <div class="idea-container bg-white rounded-xl flex">
+        <div class="ideas-container  space-y-6 my-6 ">
+            <div class="idea-container bg-white rounded-xl flex hover:shadow-md transition duration-150 ease-in cursor-pointer">
                 <div class="border-r border-gray-100 px-5 py-8">
                     <div class="text-center">
                         <div class="font-semibolt text-2xl">12</div>
                         <div class="text-gray-500">Votes</div>
                     </div>
 
-                <div class="mt-8">
-                    <button class="w-20 bg-gray-200 font-bold text-xxs uppercase rounded-xl px-4 py-3 border transition duration-150 ease-in hover:border-gray-400 border-gray-200" >
-                        Vote
-                    </button>
+                    <div class="mt-8">
+                        <button class="w-20 bg-gray-200 font-bold text-xxs uppercase rounded-xl px-4 py-3 border transition duration-150 ease-in hover:border-gray-400 border-gray-200" >
+                            Vote
+                        </button>
+                    </div>
                 </div>
 
-            </div>
-           <div class="flex px-2 py-6">
-               <a href="" class="flex-none">
-                   <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
-               </a>
-               <div class="mx-4">
+           <div class="flex flex-1 px-2 py-6">
+               <div class="flex-none">
+                    <a href="#">
+                        <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                    </a>
+               </div>
+
+               <div class="mx-4 w-full ">
                    <h4 class="text-xl font-semibold">
                        <a href="" class="hover:underline"> A random title</a>
                    </h4>
@@ -64,7 +67,7 @@
                             <div class="bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">
                                 Open
                             </div>
-                            <button class="relative bg-gray-100 hover:bg-gray-200 rounded-full h-7 transition duration-150 ease-in py-2 px-3">
+                            <button class="relative bg-gray-100 hover:bg-gray-200 border rounded-full h-7 transition duration-150 ease-in py-2 px-3">
                                 <svg  fill="currentColor" width="24" height="6"><path d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97 6a2.97 2.97 0 100-5.94zm9.184 0a2.97 2.97 0 100 5.939 2.97 2.97 0 100-5.939zm8.877 0a2.97 2.97 0 10-.003 5.94A2.97 2.97 0 0021.03.06z"> </svg>
                                 <ul class="absolute text-left ml-8 w-44 font-semibold bg-white shadow-dialog rounded-xl py-3">
                                     <li><a href="" class="hover:bg-gray-100 block px-5 py-3 transition duration-150 ease-in">Mark as Spam</a></li>
@@ -75,7 +78,7 @@
                         </div>
                    </div>
                </div>
-
+            </div>
            </div>
         </div>
         <div class="ideas-container hover:shadow-md transition duration-150 ease-in space-y-6 my-6 cursor-pointer">
